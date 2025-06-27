@@ -21,6 +21,19 @@ A authentication system built in Python to simulate secure user login workflows 
 
 ##  Project Structure
 
+  ├── main.py
+  ├── modules/
+  │   ├── auth.py
+  │   ├── password_policy.py
+  │   ├── logger.py
+  │   ├── device_tracker.py
+  │   └── utils.py
+  ├── data/
+  │   ├── users.json               
+  │   ├── login_log.json          
+  │   └── device_history.json     
+
+
 ## Usage Flow
 - Register a new user with strong password
 - Login with CLI prompt
