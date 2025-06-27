@@ -21,3 +21,22 @@ A authentication system built in Python to simulate secure user login workflows 
 
 ##  Project Structure
 
+## Usage Flow
+- Register a new user with strong password
+- Login with CLI prompt
+- If logging in from new device → receive warning
+- If password is expired or first-time login → system forces update
+- After 3 failed attempts → account temporarily locked
+- All activities logged into JSON log file
+
+## Security Concepts Practiced
+- Authentication	           ||     Username + bcrypt password
+- Authorization (RBAC)	     ||     Roles: Admin, User, Guest
+- Password Policy	           ||     Strength enforcement, expiry, reuse tracking
+- Lockout Mechanism	         ||     Lock after X failures, auto reset after 5 min
+- Anomaly Detection	         ||     Alerts on rapid multi-device login attempts
+- Logging & Audit Trail	     ||     JSON logs with full metadata
+
+## Author
+Heaven Vo Entry Level CyberSecurity
+
