@@ -1,0 +1,12 @@
+{
+  "congvo": {
+    "password": "$2b$12$RvwAU2L7Y3PTyYNvjt29aOLWhwzREj3qXet6Nlt/8fBtlQookEeQW",
+    "role": "Admin",
+    "last_changed": "2025-06-27T17:46:38.745930",
+    "must_change": false,
+    "history": [
+      "$2b$12$41b07im4QxIrO49OVDuLt.QdxXzRryXkl05A5bUwe1CaQVZ7tzP7G",
+      "$2b$12$RvwAU2L7Y3PTyYNvjt29aOLWhwzREj3qXet6Nlt/8fBtlQookEeQW"
+    ]
+  }
+}
