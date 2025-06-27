@@ -1,4 +1,4 @@
-# Secure CLI Login System — Entry Level CyberSecurity
+# Secure CLI Login System
 
 A authentication system built in Python to simulate secure user login workflows including authentication, role-based access control, password security policies, account lockout, anomaly detection, and detailed login logging. Ideal for cybersecurity beginners to practice core IAM and defense concepts.
 
